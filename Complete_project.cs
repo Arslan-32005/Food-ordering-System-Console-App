@@ -11,6 +11,10 @@ namespace FirstProject
 
         static void Main(string[] args)
         {
+            menus.Add(new FoodItem("Zinger Burger", "Crispy chicken burger", 550, "Fast Food", 450, true));
+            menus.Add(new Beverage("Pepsi", "Chilled soft drink", 150, "Soft Drink", 250, true));
+            menus.Add(new Sweet("Chocolate Cake", "Molten lava cake", 400, "Cake", 500, true));
+            menus.Add(new FoodItem("Pizza", "Classic Italian pizza", 800, "Italian", 600, true));
             while (true)
             {
                 Console.WriteLine("---------Welcome To Tasty Food Corner-------- ");
