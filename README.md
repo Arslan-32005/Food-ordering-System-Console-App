@@ -25,7 +25,7 @@ Polymorphism — each derived class overrides GetDescription() to return a descr
 Encapsulation — calorie values are validated through private fields with public properties (rejecting out-of-range input) rather than exposed as plain public fields
 Composition — the Order class holds a List<MenuItem> representing everything a customer has ordered, rather than inheriting from MenuItem (an order is not a menu item — it has menu items)
 # Project Structure
-Program.cs
+Complete_project.cs
 ├── Main()                  — menu-driven console loop
 ├── AddMenuItem()            — add a new Food/Beverage/Sweet item
 ├── ViewItem()                — display all menu items
