@@ -41,7 +41,7 @@ Complete_project.cs
 │
 └── Order
     ├── AddItem() / RemoveItem()
-    ├── CalulateTotal()
+    ├── CalculateTotal()
     ├── CalculateDiscount()
     ├── GetFinalAmount()
     └── PlaceOrder()
